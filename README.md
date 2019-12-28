@@ -3,8 +3,9 @@
 SheetMapper provides functionality to load data from Excel sheet or plain array and apply a number of different mapper
 functions to selected columns.
 
-Only provide a SplFileInfo object as source.
-Both Illuminate\Http\File and Symfony\Component\HttpFoundation\File\File extends this native PHP class.
+Only provide a `SplFileInfo` object as source.
+
+Both `Illuminate\Http\File` and `Symfony\Component\HttpFoundation\File\File` extends this native PHP class.
 
 ## Usage examples
 
