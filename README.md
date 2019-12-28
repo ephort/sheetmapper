@@ -10,6 +10,7 @@ Both Illuminate\Http\File and Symfony\Component\HttpFoundation\File\File extends
 
 Provide a plain PHP array of items to map.
 
+```php
     $data = (new \JustIversen\SheetMapper\SheetMapper)
         ->source($inputArray)
         ->modifyHeaders([
@@ -20,10 +21,11 @@ Provide a plain PHP array of items to map.
         ->toLower()
         ->numberToFloat(['measurement_amount'])
         ->get();
-
+```
 Or provide a SplFileInfo Excel file to map.
 Here we use Laravel's default request()->file
 
+```php
     $data = (new \JustIversen\SheetMapper\SheetMapper)
         ->source(request()->file)
         ->modifyHeaders([
@@ -35,6 +37,7 @@ Here we use Laravel's default request()->file
         ->checkForNull()
         ->trim()
         ->get();
+```
 
 # Contributers
 
