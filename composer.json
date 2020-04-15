@@ -3,6 +3,17 @@
     "name": "justiversen/sheetmapper",
     "description": "Excel sheetmapper",
     "keywords": [],
+    "authors": [
+        {
+            "name": "Kim André Langholz",
+            "email": "kim@justiversen.dk"
+        },
+        {
+            "name": "Jens Just Iversen",
+            "email": "jens@justiversen.dk"
+        }
+    ],
+    "license": "MIT",
     "require": {
         "php": "^7.2",
         "phpoffice/phpspreadsheet": "1.11.*"
