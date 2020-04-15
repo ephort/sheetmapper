@@ -1,11 +1,18 @@
+![Packagist Downloads](https://img.shields.io/packagist/dt/JustIversen/sheetmapper)
+![Code size](https://img.shields.io/github/languages/code-size/JustIversen/sheetmapper)
+
 # SheetMapper
 
 SheetMapper provides functionality to load data from Excel sheet or plain array and apply a number of different mapper
 functions to selected columns.
 
-Only provide a `SplFileInfo` object as source.
+You only need to provide a `SplFileInfo` object as source.
 
 Both `Illuminate\Http\File` and `Symfony\Component\HttpFoundation\File\File` extends this native PHP class.
+
+## Installation
+
+`composer require justiversen/sheetmapper`
 
 ## Usage examples
 
