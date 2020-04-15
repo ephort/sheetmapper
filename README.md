@@ -47,7 +47,10 @@ Here we use Laravel's default request()->file
         ->get();
 ```
 
-# Contributers
+## Contributers
 
- - Kim André Langholz
- - Jens Just Iversen
+ - [Kim André Langholz](https://github.com/KimLangholz)
+ - [Jens Just Iversen](https://github.com/JensJI)
+
+## License
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
